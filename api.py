@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-os.system('python ox.py')
+os.system('python numpy.py')
 if not hasattr(st, 'already_started_server'):
     st.already_started_server = True
 
